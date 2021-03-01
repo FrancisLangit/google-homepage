@@ -1,6 +1,46 @@
+#navbar {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: right;
+}
+
+#navbar a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding: 15px 15px 0 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar-apps-icon {
+    fill: #5f6368;
+    float: right;
+    height: 24px;
+    margin: 10px;
+    opacity: 1;
+    weight: 24px;
+}
+
+#navbar-profile-icon {
+    fill: #5f6368;
+    float: right;
+    margin: 6px 15px 0 15px;
+}
+
 #google-logo {
     display: block;
-    margin: 258px auto 25px auto;
+    margin: 203px auto 25px auto;
 }
 
 #search-bar-container {
