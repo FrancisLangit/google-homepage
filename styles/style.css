@@ -11,6 +11,15 @@
 
 #search-bar-container:hover {
     background-color: #fff;
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#search-bar-input {   
+    border: none;
+    font-size: 16px;
+    height: 34px;
+    margin: auto;
+    outline: none;
+    width: 500px;
 }
