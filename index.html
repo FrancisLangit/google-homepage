@@ -9,7 +9,7 @@
 
     <body>
         <img src="images/google-logo.png" id="google-logo" alt="Google logo">
-        <form>
+        <form action="https://www.google.com/search">
             <div id="search-bar-container">
                 <svg id="search-bar-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 
@@ -19,14 +19,13 @@
                         7.01 14 9.5 11.99 14 9.5 14z">
                     </path>
                 </svg>
-                <input id="search-bar-input" type="text">
+                <input id="search-bar-input" name="q" type="text">
             </div>
             
             <div id="search-buttons-container">
                 <input class="search-button" type="submit" value="Google Search">
-                <input class="search-button" type="submit" value="I'm Feeling Lucky">
+                <input class="search-button" name="btnI" type="submit" value="I'm Feeling Lucky">
             </div>
         </form>
-        </span>
     </body>
 </html>
