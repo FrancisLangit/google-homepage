@@ -1,6 +1,62 @@
+#navbar {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: right;
+}
+
+#navbar a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding: 15px 15px 0 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar-apps-icon {
+    fill: #5f6368;
+    float: right;
+    height: 24px;
+    margin: 10px;
+    opacity: 1;
+    weight: 24px;
+}
+
+#navbar-signin-button {
+    background: #1a73e8;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    margin: 5px 15px 0 15px;
+    padding: 9px 23px;
+    width: 95px;
+}
+
+#navbar-signin-button:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
 #google-logo {
     display: block;
-    margin: 258px auto 25px auto;
+    margin: 203px auto 25px auto;
 }
 
 #search-bar-container {
@@ -23,8 +79,8 @@
 #search-bar-icon {
     fill: #9aa0a6;
     height: 20px;
-    margin: auto;
-    width: 20px;
+    margin: 10px 10px 10px 20px;
+    width: 30px;
 }
 
 #search-bar-input {   
