@@ -116,3 +116,44 @@
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
     color: #202124;
 }
+
+#footer ul {
+    border-top: 1px solid #dddddd;
+    bottom: 0;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#footer li {
+    float: left;
+}
+
+#footer-right li {
+    float: right;
+}
+
+#footer li a {
+    color: #70757a;
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    #footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
