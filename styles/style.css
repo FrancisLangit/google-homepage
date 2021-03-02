@@ -105,6 +105,7 @@ body {
     border: 1px solid #f8f9fa;
     color: #3c4043;
     cursor: pointer;
+    font-family: arial;
     height: 36px;
     margin: 11px 6px;
     min-width: 54px;
@@ -115,6 +116,15 @@ body {
 	border: 1px solid #dadce0;
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
     color: #202124;
+}
+
+#search-note {  
+    color: #5f5f5f;
+    display: flex;
+    font-size: 12px;
+    font-style: italic;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 #footer ul {
