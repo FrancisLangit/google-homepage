@@ -17,3 +17,10 @@ Otherwise, if you'd like to run page locally or want to edit the contents of the
 
 Make a query using its functional search bar, surprise yourself with its I'm Feeling Lucky button, or use its navigation bars to travel across Google's wide array of services all within the convenience of a single page.
 
+## Contributing
+
+There are currently no plans upon further expanding upon the website's current features. However, should anyone find themselves encountering a bug upon its usage, please have a look at our [contributing guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This repository is licensed under an [MIT License](LICENSE).
