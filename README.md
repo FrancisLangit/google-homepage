@@ -13,7 +13,7 @@ Otherwise, if you'd like to run page locally or want to edit the contents of the
 
 ## Usage
 
-![GIF of website being used to make a query](/home/francislangit/Desktop/google-homepage/readme_usage_gif.gif)
+![GIF of website being used to make a query](readme_usage_gif.gif)
 
 Make a query using its functional search bar, surprise yourself with its I'm Feeling Lucky button, or use its navigation bars to travel across Google's wide array of services all within the convenience of a single page.
 
