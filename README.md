@@ -1,4 +1,4 @@
-# google-homepage
+![](readme_banner.png)
 
 A one-for-one, working clone of the Google search engine home page written on HTML and CSS. 
 
